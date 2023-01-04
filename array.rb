@@ -15,3 +15,12 @@ p tuition_owed
 # .unshift will add the given object(s) to the front of the array
 greater_than_1000.unshift(false, true)
 p greater_than_1000
+
+# Demonstrate Understanding of Index Positions
+# Index positions refer to the order of objects in an array. 
+# Index positions start with index position 0 and move up in increments of 1
+# Consider the students array
+Students[0]
+# this refers to Isaac in the array above as he is in index position 0
+Students[3]
+# this refers to Jermaine as he is in position 3.
