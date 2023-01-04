@@ -24,3 +24,14 @@ Students[0]
 # this refers to Isaac in the array above as he is in index position 0
 Students[3]
 # this refers to Jermaine as he is in position 3.
+
+# Demonstrate Array Method of Choice
+# .assoc will search through a series of indicated arrays and calls the first
+# associated with the given object
+
+arrays = [students, class_size, tuition_owed, greater_than_1000]
+
+p arrays.assoc(Alejandro)
+
+# This should output the array: Students
+
