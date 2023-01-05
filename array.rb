@@ -26,8 +26,9 @@ students[3]
 # this refers to Jermaine as he is in position 3.
 
 # Demonstrate Array Method of Choice
-# .assoc will search through a series of indicated arrays and calls the first
-# associated with the given object
+# .assoc() is used to search through an array of arrays. The attached object is compared
+# with the index of the contained arrays. If there is a match then it will output the 
+# contained array. If not it will output nil.
 
 students = ["Isaac", "Julian", "Alejandro", "Jermaine"]
 class_size = [30, 28, 17, 21]
