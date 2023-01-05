@@ -26,9 +26,8 @@ students[3]
 # this refers to Jermaine as he is in position 3.
 
 # Demonstrate Array Method of Choice
-# .assoc is used to search through an array of arrays whose attached object
-# is compared with the index contained in the contained arrays. If a match is found
-# it will output the associated array, otherwise it will output nil.
+# .assoc will search through a series of indicated arrays and calls the first
+# associated with the given object
 
 students = ["Isaac", "Julian", "Alejandro", "Jermaine"]
 class_size = [30, 28, 17, 21]
@@ -37,7 +36,11 @@ greater_than_1000 = [true, false, false, true]
 
 arrays = [students, class_size, tuition_owed, greater_than_1000]
 
-p arrays.assoc(1200.67)
+p arrays.assoc("Isaac")
 
-# This should output the array: tuition_owed
+# This should output the array: students
 
+# The above code was giving me an "uniniated constant" error. After some googling I
+# determine that the error was a result of having Students[0] capitalized above. I
+# added the arrays again above this code to reestablish them. I also made the
+# "S" in students lowercase just to be safe. 
